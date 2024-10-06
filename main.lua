@@ -1,7 +1,7 @@
 local branch = getgenv().mspaint_dev_mode and "dev" or "main"
 
 local HttpService = game:GetService("HttpService")
-local baseURL = "https://github.com/smsmdmsmsk/mspaint" .. branch
+local baseURL = "https://raw.githubusercontent.com/smsmdmsmsk/mspaint/refs/heads/main/places/doors/doors.lua" .. branch
 
 export type gameMapping = {
     exclusions: table?,
